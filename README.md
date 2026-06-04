@@ -1,21 +1,15 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
-
-# Run and deploy your AI Studio app
-
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/c79168b4-c660-49ea-b007-a61e8e616046
-
-## Run Locally
-
-**Prerequisites:**  [Android Studio](https://developer.android.com/studio)
-
-
-1. Open Android Studio
-2. Select **Open** and choose the directory containing this project
-3. Allow Android Studio to fix any incompatibilities as it imports the project.
-4. Create a file named `.env` in the project directory and set `GEMINI_API_KEY` in that file to your Gemini API key (see `.env.example` for an example)
-5. Remove this line from the app's `build.gradle.kts` file: `signingConfig = signingConfigs.getByName("debugConfig")`
-6. Run the app on an emulator or physical device
+​⚡ JK Volt
+​Precision electrical tools engineered for the modern technician.
+​JK Volt is a high-performance, client-side mobile utility designed specifically for electrical technicians, consumer electronics repair professionals, and bench engineers. Operating under the strategic vision of Yumkhaibam Joykumar Singh and developed by the PraXper Android Dev. (PAD) Team, this application provides immediate, mission-critical calculations with zero network dependencies.
+​Designed with strict adherence to Material Design 3 (Google Pixel UI) guidelines, JK Volt combines elite field utility with structural elegance.
+​🏗️ Architecture Philosophy
+​JK Volt is built on a Pure Software model. To ensure zero marginal costs and maximum reliability in the field, the application features:
+​100% Offline Capability: No reliance on external paid APIs, backend databases, or cloud processing. All computational logic is hardcoded client-side.
+​Zero Data Collection: Strict local sandboxing. All user preferences (theme, text scaling, language) are stored exclusively in the device's localStorage.
+​High-Leverage Utility: Focused entirely on eliminating operational bottlenecks for repair professionals working in signal-dead industrial environments.
+​🧰 Integrated Toolset
+​Resistor Color Code Engine: Decodes 3, 4, 5, and 6-band axial resistors instantly, featuring a responsive, pseudo-3D visualizer with dynamic color banding.
+​Ohm’s Law & Power Matrix: A predictive calculation field covering Voltage, Current, Resistance, and Power. Input any two parameters to automatically solve for the remaining variables.
+​SMD Component Decoder: Translates cryptic 3-digit, 4-digit, and EIA-96 microscopic surface-mount markings into standard metric resistance values.
+​AWG Ampacity & Voltage Drop Evaluator: Calculates maximum safe current limits against temperature limits (60°C, 75°C, 90°C) and tracks linear voltage drop over custom cable runs, complete with thermal hazard warnings.
+​Capacitor Unit Matrix: Decodes multi-digit ceramic and film capacitor markings, delivering simultaneous conversions across Picofarads (pF), Nanofarads (nF), and Microfarads (µF).
